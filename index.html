@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hellohimi</title>
+</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+     <link rel="icon" type="image/x-icono" sizes="32x32" href="assets/images/logo/logo.ico">
+
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+
+      <!-- hero start -->
+      <div class="container-fluid p-0">
+        <div class=" text-white text-center d-flex align-items-center justify-content-center" style="height: 100vh; position: relative;">
+          <video autoplay muted loop id="background-video" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+            <source src="assets/videos/Screen Recording 2024-12-30 081328.webm" type="video/webm">
+            Your browser does not support the video tag.
+          </video>
+          <div class="position-relative z-index-2">
+            <h1 class="display-3 fw-bold">ようこそ、氷見市へ</h1>
+            <p class="lead">私たちと一緒に最高の体験をお楽しみください</p>
+            <button class="btn btn-primary p-2">Learn More</button>
+          </div>
+        </div>
+      </div>      
+      <!-- hero end -->
+
+      <!-- about start -->
+      <section class="py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="row gx-4 gx-lg-5 align-items-center">
+                <div class="col-md-6">
+                    <div class="small mb-1">ようこそ、氷見市へ </div>
+                    <h1 class="display-5 fw-bolder">海、山、そして魅力的な文化の調和</h1>
+                    <div class="fs-5 mb-5"></div>
+                    <p class="lead">氷見市は日本の海沿いの都市で、立山山脈と日本海の美しい自然景観を提供します。氷見カンブリ（氷見のブリ）や地元の伝統、賑やかな祭りで知られ、氷見市は観光客に魅力的な目的地となっています。</p>
+                    <div class="d-flex"></div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Bootstrap Carousel -->
+                    <div id="himiCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/gunungteteyama.jpg" class="d-block w-100" alt="Slide 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/heroimagehitmi.jpg" class="d-block w-100" alt="Slide 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/makanankhas.jpg" class="d-block w-100" alt="Slide 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#himiCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#himiCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!-- End of Carousel -->
+                </div>
+            </div>
+        </div>
+    </section>
+      <!-- about end -->
+
+ <!-- Data Random Himi Start -->
+<section class="bg-primary py-5 text-center mx-5 rounded-4">
+  <div class="container px-5">
+    <div class="row text-white text-center g-3">
+      <!-- Kata 1 -->
+      <div class="col-6 col-md-3">
+        <span class="h5 display-6 fw-bold d-block">54.511</span>
+        <div>人口</div>
+      </div>
+
+      <!-- Kata 2 -->
+      <div class="col-6 col-md-3">
+        <span class="h5 display-6 fw-bold d-block">
+          230,56
+        </span>
+        <div>市の面積</div>
+      </div>
+
+      <!-- Kata 3 -->
+      <div class="col-6 col-md-3">
+        <span class="h5 display-6 fw-bold d-block">71</span>
+        <div>都市の年齢</div>
+      </div>
+
+      <!-- Kata 4 -->
+      <div class="col-6 col-md-3">
+        <span class="h5 display-6 fw-bold d-block">20</span>
+        <div>観光</div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- data random himi end -->
+
+   <!-- bento layout start -->
+<div class="container py-3">
+  <div class="bento-grid">
+    <!-- Item kecil -->
+    <div class="bento-item small">
+      <img src="assets/images/gunungteteyama.jpg" alt="Gunung Tateyama">
+      <div class="overlay">
+        <h6>立山山脈</h6>
+        <p>魅力的な自然の美しさ</p>
+      </div>
+    </div>
+
+    <!-- Item besar -->
+    <div class="bento-item large">
+      <img src="assets/images/makanankhas.jpg" alt="makanan khas">
+      <div class="overlay">
+        <h6>氷見カンブリ</h6>
+        <p>新鮮で魅力的なブリ（ハマチ）</p>
+      </div>
+    </div>
+
+    <!-- Item kecil lainnya -->
+    <div class="bento-item small">
+      <img src="assets/images/lembahkurobe.jpeg" alt="Lembah kurobe">
+      <div class="overlay">
+        <h6>黒部峡谷</h6>
+        <p>隠れた美しい谷</p>
+      </div>
+    </div>
+
+    <!-- Item sedang -->
+    <div class="bento-item medium">
+      <img src="assets/images/festifataisei.webp" alt="festifal taisei">
+      <div class="overlay">
+        <h6>大清祭（たいせいさい）</h6>
+        <p>毎年恒例の盛大なお祭り</p>
+      </div>
+    </div>
+
+    <!-- Item sedang lainnya -->
+    <div class="bento-item medium">
+      <img src="assets/images/seasidepark.jpeg" alt="taman seaside">
+      <div class="overlay">
+        <h6>シーサイド公園</h6>
+        <p>海の景色が広がる公園</p>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- bento layout end -->
+
+      <!-- tulisan kecil start -->
+        <section class="py-5 text-center text-black">
+          <div class="container px-5">
+            <p class="lead fw-normal mt-4">日本の富山湾沿岸で隠れた美しさを発見し、魅力的な自然の景色と豊かな文化を楽しんでください。</p>
+            <button class="btn btn-primary p-2">See More</button>
+          </div>
+        </section>
+      <!-- tulisan kecil end -->
+
+    <!-- interaktif map start -->
+    <section class="py-5 text-center">
+      <div class="container">
+        <h2 class="fw-bold mb-4">氷見市のインタラクティブマップ</h2>
+        <p class="mb-4">下のインタラクティブマップで、氷見市の観光地、レストラン、その他の重要な場所を見つけてください。</p>
+        
+        <!-- Map Section -->
+        <div class="map-container mb-4">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3134.3779940897826!2d136.99406131576014!3d36.854485979936176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff76abdb5a8bc59%3A0x3f0fce7f9e8f591!2sHimi%2C%20Toyama%2C%20Japan!5e0!3m2!1sen!2sid!4v1697981937363!5m2!1sen!2sid" 
+            allowfullscreen=""
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        
+        <!-- List of Locations -->
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">氷見海岸</h5>
+                <p class="card-text">魅力的な景色が広がる美しいビーチで、リラックスしたり、夕日を楽しんだりするのに最適です。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">氷見魚市場</h5>
+                <p class="card-text">新鮮な海産物と地元の名物料理で有名な魚市場です。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">氷見文化博物館</h5>
+                <p class="card-text">氷見市の歴史と文化を展示している博物館です。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- interaktif map end -->
+
+    <!-- testimoni start -->
+    <section class="py-5">
+      <div class="container">
+        <!-- Formulir Pengalaman -->
+        <section class="py-5 bg-light">
+          <div class="container">
+            <!-- Judul Bagian -->
+            <div class="text-center mb-5">
+              <h2 class="fw-bold">Pengalaman Pengunjung</h2>
+              <p class="text-muted">Lihat apa yang orang lain katakan tentang kota Himi</p>
+            </div>
+        
+            <!-- Testimoni List -->
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <!-- Testimoni 1 -->
+              <div class="col">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                      <img src="https://via.placeholder.com/50" alt="profile" class="rounded-circle me-3" style="width: 50px; height: 50px;">
+                      <div>
+                        <h5 class="mb-0">Sahaaoon</h5>
+                        <small class="text-muted">Kasugai, Jepang - 12.782 kontribusi</small>
+                      </div>
+                    </div>
+                    <h6 class="card-title">マンガ通り近くの鮮やかな神社</h6>
+                    <p class="text-muted">Jan 2024 &bull; Bisnis</p>
+                    <p class="card-text">主祭神は天照大神で、氷見マンガ通り近くにある、藤子・F・不二雄Aに関連する光善寺です。最近、初詣（神社への初めての参拝）が行われたばかりだと思いますが、回復を願うばかりです。</p>
+                    <!-- Foto Galeri -->
+                    <div class="d-flex gap-2">
+                      <img src="https://via.placeholder.com/80" alt="Foto 1" class="rounded">
+                      <img src="https://via.placeholder.com/80" alt="Foto 2" class="rounded">
+                      <img src="https://via.placeholder.com/80" alt="Foto 3" class="rounded">
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- Testimoni 2 -->
+              <div class="col">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                      <img src="https://via.placeholder.com/50" alt="profile" class="rounded-circle me-3" style="width: 50px; height: 50px;">
+                      <div>
+                        <h5 class="mb-0">Hanako</h5>
+                        <small class="text-muted">Tokyo, Jepang - 8.432 kontribusi</small>
+                      </div>
+                    </div>
+                    <h6 class="card-title">素晴らしい地元の食べ物と風景</h6>
+                    <p class="text-muted">Dec 2023 &bull; Wisata</p>
+                    <p class="card-text">ここでの食べ物は絶品で、景色は息をのむほど美しいです。家族と一緒に氷見を探検したのは忘れられない体験でした。</p>
+                    <!-- Foto Galeri -->
+                    <div class="d-flex gap-2">
+                      <img src="https://via.placeholder.com/80" alt="Foto 1" class="rounded">
+                      <img src="https://via.placeholder.com/80" alt="Foto 2" class="rounded">
+                      <img src="https://via.placeholder.com/80" alt="Foto 3" class="rounded">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+      </section>
+    <!-- testimoni end -->
+
+    <!-- footer start -->
+    <footer class="footer bg-black py-5 bg-dark text-white mt-5 ">
+      <div class="container">
+          <div class="row text-center text-md-start align-items-center">
+              <!-- Logo & Copyright -->
+              <div class="col-md-4 mb-3 mb-md-0">
+                  <h5 class="fw-bold">MasbroDev</h5>
+                  <p class="mb-0">Copyright © MasbroDev 2024. 無断転載を禁じます。</p>
+              </div>
+  
+              <!-- Social Media Links -->
+              <div class="col-md-4 mb-3 mb-md-0 text-center">
+                  <h6 class="fw-bold">フォローしてください</h6>
+                  <a class="btn btn-outline-light btn-social mx-2" href="https://www.instagram.com/himicity_official/" target="_blank" aria-label="Instagram">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                  <a class="btn btn-outline-light btn-social mx-2" href="#!" target="_blank" aria-label="Facebook">
+                      <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a class="btn btn-outline-light btn-social mx-2" href="#!" target="_blank" aria-label="LinkedIn">
+                      <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a class="btn btn-outline-light btn-social mx-2" href="#!" target="_blank" aria-label="Twitter">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+              </div>
+  
+              <!-- Quick Links -->
+              <div class="col-md-4 text-center text-md-end">
+                  <h6 class="fw-bold">クイックリンク</h6>
+                  <a class="link-light text-decoration-none me-3" href="#!">プライバシーポリシー</a>
+                  <a class="link-light text-decoration-none" href="#!">| 利用規約</a>
+              </div>
+          </div>
+      </div>
+      <div class="text-center mt-4">
+          <p class="mb-0 small">MasbroDevチームによって ❤ で作成されました</p>
+      </div>
+  </footer>
+  
+    <!-- footer end -->
+  
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
