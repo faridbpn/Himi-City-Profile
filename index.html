@@ -89,43 +89,44 @@
   </section>
   <!-- about e -->
 
-<!-- Data Random Himi Start -->
-<section class="bg-primary py-5 text-center mx-5 rounded-4" id="statistics">
+ <!-- Data Random Himi Start -->
+ <section class="bg-primary py-5 text-center mx-5 rounded-4" id="statistics">
   <div class="container px-5">
     <div class="row text-white text-center g-3">
       <!-- Kata 1 -->
-      <div class="col-6 col-md-3" id="stat-1" data-sr="enter from bottom">
+      <div class="col-6 col-md-3" id="stat-1">
         <span class="h5 display-6 fw-bold d-block">54.511</span>
         <div>人口</div>
       </div>
 
       <!-- Kata 2 -->
-      <div class="col-6 col-md-3" id="stat-2" data-sr="enter from bottom">
+      <div class="col-6 col-md-3" id="stat-2">
         <span class="h5 display-6 fw-bold d-block">230,56</span>
         <div>市の面積</div>
       </div>
 
       <!-- Kata 3 -->
-      <div class="col-6 col-md-3" id="stat-3" data-sr="enter from bottom">
+      <div class="col-6 col-md-3" id="stat-3">
         <span class="h5 display-6 fw-bold d-block">71</span>
         <div>都市の年齢</div>
       </div>
 
       <!-- Kata 4 -->
-      <div class="col-6 col-md-3" id="stat-4" data-sr="enter from bottom">
+      <div class="col-6 col-md-3" id="stat-4">
         <span class="h5 display-6 fw-bold d-block">20</span>
         <div>観光</div>
       </div>
     </div>
   </div>
 </section>
-<!-- Data Random Himi End -->
 
-<!-- Bento Layout Start -->
+  <!-- data random himi end -->
+
+   <!-- bento layout start -->
 <div class="container py-3" id="gallery">
   <div class="bento-grid">
     <!-- Item kecil -->
-    <div class="bento-item small" data-sr="enter from left">
+    <div class="bento-item small">
       <img src="assets/images/gunungteteyama.jpg" alt="Gunung Tateyama">
       <div class="overlay">
         <h6>立山山脈</h6>
@@ -134,7 +135,7 @@
     </div>
 
     <!-- Item besar -->
-    <div class="bento-item large" data-sr="enter from right">
+    <div class="bento-item large">
       <img src="assets/images/makanankhas.jpg" alt="makanan khas">
       <div class="overlay">
         <h6>氷見カンブリ</h6>
@@ -143,7 +144,7 @@
     </div>
 
     <!-- Item kecil lainnya -->
-    <div class="bento-item small" data-sr="enter from left">
+    <div class="bento-item small">
       <img src="assets/images/lembahkurobe.jpeg" alt="Lembah kurobe">
       <div class="overlay">
         <h6>黒部峡谷</h6>
@@ -152,7 +153,7 @@
     </div>
 
     <!-- Item sedang -->
-    <div class="bento-item medium" data-sr="enter from right">
+    <div class="bento-item medium">
       <img src="assets/images/festifataisei.webp" alt="festifal taisei">
       <div class="overlay">
         <h6>大清祭（たいせいさい）</h6>
@@ -161,7 +162,7 @@
     </div>
 
     <!-- Item sedang lainnya -->
-    <div class="bento-item medium" data-sr="enter from left">
+    <div class="bento-item medium">
       <img src="assets/images/seasidepark.jpeg" alt="taman seaside">
       <div class="overlay">
         <h6>シーサイド公園</h6>
@@ -170,29 +171,68 @@
     </div>
   </div>
 </div>
-<!-- Bento Layout End -->
+      <!-- bento layout end -->
 
-<!-- Tulisan Kecil Start -->
-<section class="py-5 text-center text-black" id="discover">
-  <div class="container px-5">
-    <p class="lead fw-normal mt-4" id="discover-text" data-sr="enter from bottom">日本の富山湾沿岸で隠れた美しさを発見し、魅力的な自然の景色と豊かな文化を楽しんでください。</p>
-    <button class="btn btn-primary p-2" id="discover-btn" data-sr="enter from bottom">See More</button>
-  </div>
-</section>
-<!-- Tulisan Kecil End -->
+      <!-- tulisan kecil start -->
+      <section class="py-5 text-center text-black" id="discover">
+        <div class="container px-5">
+          <p class="lead fw-normal mt-4" id="discover-text">日本の富山湾沿岸で隠れた美しさを発見し、魅力的な自然の景色と豊かな文化を楽しんでください。</p>
+          <button class="btn btn-primary p-2" id="discover-btn">See More</button>
+        </div>
+      </section>
+      <!-- tulisan kecil end -->
 
-<!-- Interaktif Map Start -->
-<section class="py-5 text-center" id="map">
-  <div class="container" data-sr="enter from bottom">
-    <h2 class="fw-bold mb-4">氷見市のインタラクティブマップ</h2>
-    <p class="mb-4">下のインタラクティブマップで、氷見市の観光地、レストラン、その他の重要な場所を見つけてください。</p>
-  </div>
-</section>
-<!-- Interaktif Map End -->
+    <!-- interaktif map start -->
+    <section class="py-5 text-center" id="map">
+      <div class="container">
+        <h2 class="fw-bold mb-4">氷見市のインタラクティブマップ</h2>
+        <p class="mb-4">下のインタラクティブマップで、氷見市の観光地、レストラン、その他の重要な場所を見つけてください。</p>
+        
+        <!-- Map Section -->
+        <div class="map-container mb-4">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3134.3779940897826!2d136.99406131576014!3d36.854485979936176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff76abdb5a8bc59%3A0x3f0fce7f9e8f591!2sHimi%2C%20Toyama%2C%20Japan!5e0!3m2!1sen!2sid!4v1697981937363!5m2!1sen!2sid" 
+            allowfullscreen=""
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        
+        <!-- List of Locations -->
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">氷見海岸</h5>
+                <p class="card-text">魅力的な景色が広がる美しいビーチで、リラックスしたり、夕日を楽しんだりするのに最適です。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">氷見魚市場</h5>
+                <p class="card-text">新鮮な海産物と地元の名物料理で有名な魚市場です。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">氷見文化博物館</h5>
+                <p class="card-text">氷見市の歴史と文化を展示している博物館です。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- interaktif map end -->
 
-<!-- Testimoni Start -->
+<!-- Testimoni start -->
 <section class="py-5" id="rating">
-  <div class="container" data-sr="enter from bottom">
+  <div class="container">
+    <!-- Formulir Pengalaman -->
     <section class="py-5 bg-light">
       <div class="container">
         <!-- Judul Bagian -->
@@ -202,7 +242,7 @@
         </div>
 
         <!-- Testimoni List -->
-        <div class="row row-cols-1 row-cols-md-2 g-4" data-sr="enter from bottom">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
           <!-- Testimoni 1 -->
           <div class="col">
             <div class="card h-100 shadow-sm">
@@ -216,7 +256,7 @@
                 </div>
                 <h6 class="card-title">マンガ通り近くの鮮やかな神社</h6>
                 <p class="text-muted">Jan 2024 &bull; Bisnis</p>
-                <p class="card-text">主祭神は天照大神で、氷見マンガ通り近くにある、藤子・F・不二雄Aに関連する光善寺です。</p>
+                <p class="card-text">主祭神は天照大神で、氷見マンガ通り近くにある、藤子・F・不二雄Aに関連する光善寺です。最近、初詣（神社への初めての参拝）が行われたばかりだと思いますが、回復を願うばかりです。</p>
                 <!-- Foto Galeri -->
                 <div class="d-flex gap-2">
                   <img src="assets/images/festifataisei.webp" alt="Foto 1" class="rounded">
@@ -226,7 +266,7 @@
               </div>
             </div>
           </div>
-          
+
           <!-- Testimoni 2 -->
           <div class="col">
             <div class="card h-100 shadow-sm">
@@ -254,8 +294,7 @@
     </section>
   </div>
 </section>
-<!-- Testimoni End -->
-
+<!-- Testimoni end -->
 
     <!-- footer start -->
     <footer class="footer bg-black py-5 bg-dark text-white mt-5 ">
