@@ -205,3 +205,16 @@ body, html {
     border-radius: 10px;
     padding: 20px;
   }
+
+  /* testimoni */
+  .card .rounded {
+    width: 80px; /* Set lebar gambar */
+    height: 80px; /* Set tinggi gambar */
+    object-fit: cover; /* Gambar tetap proporsional */
+    border: 1px solid #ddd; /* Opsional: menambahkan border */
+  }
+
+  .d-flex.gap-2 {
+    justify-content: start; /* Menjaga tata letak gambar tetap rapi */
+    gap: 10px; /* Jarak antar gambar */
+  }
